@@ -6,21 +6,21 @@
 #
 default: &default
   adapter: postgresql
-  encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
 
 development:
   <<: *default
-  database: react_rails_development
+  database: rails_react_development
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: react_rails_test
+  database: rails_react_test
 
 production:
   <<: *default
-  username: react_rails
-  database: react_rails_production
+  database: rails_react_production
+  username: rails_react

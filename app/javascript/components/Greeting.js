@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 
-function Greeting() {
-  const [message, setMessage] = useState('');
+const Greeting = () => {
+  const [greeting, setGreeting] = useState('');
 
   useEffect(() => {
-    fetch('/api/random_greeting')
-      .then((response) => response.json())
-      .then((data) => setMessage(data.message));
+    axios.get('/api/random_greeting').then((response) => {
+      setGreeting(response.data.greeting);
+    });
   }, []);
 
-  return <div>{message}</div>;
-}
+  return <div>{greeting}</div>;
+};
 
 export default Greeting;
