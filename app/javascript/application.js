@@ -1,11 +1,16 @@
+// application.js
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Greeting from './components/Greeting';
 
-function App() {
-  return (<h1>Hello World!</h1>);
-}
+const App = () => {
+  return (
+    <Router>
+      <Route exact path="/" component={Greeting} />
+    </Router>
+  );
+};
 
-ReactDOM.render(
-  <App/>,
-  document.getElementById('root'),
-);
+document.addEventListener('DOMContentLoaded', () => {
+  ReactDOM.render(<App />, document.getElementById('root'));
+});
