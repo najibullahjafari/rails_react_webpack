@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>BudgetPro</b></h3>
+  <h3><b>Hello Rails React</b></h3>
 </div>
 
 [![codecov](https://codecov.io/gh/cancelei/blog-in-rails/graph/badge.svg?token=ITBDQ9ZRO7)](https://codecov.io/gh/cancelei/blog-in-rails)
@@ -33,8 +33,8 @@
 
 # 📖 BudgetPro<a name="ruby-on-rails-group-project"></a>
 
-**BudgetPro** 
-The Ruby on Rails capstone project is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
+**Hello rials react** 
+Hello rails react is an application that I setuped by webpack and I used the react inside rails.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -55,6 +55,11 @@ The Ruby on Rails capstone project is about building a mobile web application wh
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
+<summary>Front-end</summary>
+  <ul>
+    <li><a href="#">React</a></li>
+  </ul>
+</details>
 
 <!-- Features -->
 
@@ -62,6 +67,7 @@ The Ruby on Rails capstone project is about building a mobile web application wh
 
 - **Make use for migrations features from Active Record**
 - **Include Tables for User, Categories and Transactions**
+- **Include React**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -193,7 +199,7 @@ Setting up the Data Base:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/najibullahjafari/BudgetPro/issues).
+Feel free to check the [issues page](https://github.com/najibullahjafari/rails_react_webpack/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
