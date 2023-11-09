@@ -7,11 +7,17 @@
 default: &default
   adapter: postgresql
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  encoding: unicode
+  username: postgres
+  host: localhost
+  port: 5432
   timeout: 5000
+  password: 123
 
 development:
   <<: *default
   database: rails_react_development
+  username: postgres
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -23,4 +29,4 @@ test:
 production:
   <<: *default
   database: rails_react_production
-  username: rails_react
+  username: postgres

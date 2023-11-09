@@ -10,7 +10,7 @@ greetings = [
   'Greetings from Rails!',
   'Welcome to our app!',
   'Hi there!',
-  'Good to see you!'
+  'Good to see you! Najib'
 ]
 
 greetings.each do |text|
