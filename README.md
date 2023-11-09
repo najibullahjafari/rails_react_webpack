@@ -11,7 +11,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 BudgetPro ](#ruby-on-rails-group-project)
+- [📖 Hello Rails React ](#ruby-on-rails-group-project)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -31,7 +31,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 BudgetPro<a name="ruby-on-rails-group-project"></a>
+# 📖 Hello Rails React<a name="ruby-on-rails-group-project"></a>
 
 **Hello rials react** 
 Hello rails react is an application that I setuped by webpack and I used the react inside rails.
@@ -93,7 +93,7 @@ first at all, install rails:
 Clone this repository to your desired folder:
 
 ```sh
-git clone https://github.com/najibullahjafari/BudgetPro
+git clone https://github.com/najibullahjafari/rails_react_webpack
 ```
 
 ### Install
@@ -145,7 +145,7 @@ bundle exec rspec ./spec/features
 Install this project with:
 
 ```sh
-  cd RoR-group-project
+  cd rails_react_webpack
   bundle install
 ```
 
