@@ -31,7 +31,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Rails React<a name="ruby-on-rails-group-project"></a>
+# 📖 BudgetPro<a name="ruby-on-rails-group-project"></a>
 
 **Hello rials react** 
 Hello rails react is an application that I setuped by webpack and I used the react inside rails.
@@ -57,7 +57,7 @@ Hello rails react is an application that I setuped by webpack and I used the rea
 </details>
 <summary>Front-end</summary>
   <ul>
-    <li><a href="#">React</a></li>
+    <li><a href="https://www.react.dev">React</a></li>
   </ul>
 </details>
 
@@ -217,8 +217,7 @@ If you like this project feel free to leave an star, as well if you have a sugge
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Gregoire Vella due to his effort with this great UI.
-
+I would like to thank Microverse.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
