@@ -31,7 +31,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 BudgetPro<a name="ruby-on-rails-group-project"></a>
+# 📖 Hello rials react<a name="ruby-on-rails-group-project"></a>
 
 **Hello rials react** 
 Hello rails react is an application that I setuped by webpack and I used the react inside rails.
