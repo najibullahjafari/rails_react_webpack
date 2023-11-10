@@ -1,14 +1,15 @@
 import '@hotwired/turbo-rails';
 import './controllers';
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import { createRoot } from 'react-dom';
 import { Provider } from 'react-redux';
-import store from './src/api/store';
-import App from './src/App';
+import App from './components/App';
+import store from './redux/store';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
-root.render(
+const root = document.getElementById('root');
+const rootInstance = createRoot(root);
+console.log("working")
+rootInstance.render(
   <Provider store={store}>
     <App />
   </Provider>,

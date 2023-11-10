@@ -1,7 +1,6 @@
-# app/controllers/greetings_controller.rb
 class GreetingsController < ApplicationController
-  def random_greeting
-    @greeting = Greeting.order('RANDOM()').first&.text || 'No greetings available'
-    render :random_greeting
+  def random
+    random_message = Message.order('RANDOM()').first
+    render json: { greeting: random_message.text }
   end
 end
