@@ -102,6 +102,9 @@ Install this project with:
 
 ```sh
   bundle install
+  npm install
+  yarn install
+  bundle exec rails assets:precompile
 ```
 
 Setting up the Data Base:
