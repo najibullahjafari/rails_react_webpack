@@ -1,0 +1,5 @@
+message1 = Message.create(text: 'hi!')
+message2 = Message.create(text: 'hey!')
+message3 = Message.create(text: 'Welcome!')
+message4 = Message.create(text: 'Hi Najib!')
+message5 = Message.create(text: 'nice day!')
